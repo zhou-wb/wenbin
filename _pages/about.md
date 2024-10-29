@@ -9,17 +9,16 @@ profile:
   image: Wenbin_square.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>301 Haking Wong Building</p>
-    <p>Pokfulam, HKU</p>
-    <p>Hong Kong</p>
+    <p>301 Haking Wong Building, HKU</p>
+    <p>Pokfulam, Hong Kong</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second year Ph.D. student in the Department of Electrical and Electronic Engineering (EEE) at [The University of Hong Kong (HKU)](https://www.hku.hk/). Currently, I am conducting research in the Computational Imaging & Mixed Representation Labortory, aka., [WeLight@HKU](https://hku.welight.fun/) led by [Dr. Yifan (Evan) Peng](https://www.eee.hku.hk/~evanpeng/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I completed my bachelor's degree in Physics (with a minor in Computer Science), under the guidance of [Prof. Ligang Liu](http://staff.ustc.edu.cn/~lgliu/), at [the University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/), and further pursued a master's degree in Computer Science at the University of Hong Kong. Additionally, I gained valuable experience as a Research Assistant at [Purdue University](https://www.purdue.edu/), where I was led by [Prof. Bedrich Benes](https://cs.purdue.edu/homes/bbenes/) for a period of two years.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current academic interests revolve around the areas of Computational Holography, Optics, Computer Graphics, and Virtual/Augmented Reality.
