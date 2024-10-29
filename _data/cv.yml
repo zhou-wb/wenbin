@@ -2,96 +2,88 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Wenbin Zhou
+    - name: Email
+      value: zhouwb@connect.hku.hk
+    - name: Office
+      value: Haking Wong Building 301, The University of Hong Kong, HONG KONG
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical and Electronic Engineering, The University of Hong Kong
+      # institution: The University of Hong Kong - Ph.D. in Electrical and Electronic Engineering
+      year: 2023  -  2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <a href='https://hku.welight.fun/'>Computational Imaging & Mixed Representation Laboratory, HKU</a>
+        - Supervised by <a href='https://www.eee.hku.hk/~evanpeng'>Dr. Yifan (Evan) Peng</a>
+        - "Research interests: computational holography, computer graphics, computational imaging, deep learning, AR/VR."
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Master of Science in Computer Science, The University of Hong Kong
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - "GPA: <b>4.20/4.30</b>, graduate with <b>distinction</b>."
+    - title: Research Assistant, Purdue University
+      year: 2018  -  2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advised by <a href='https://cs.purdue.edu/homes/bbenes/'>Prof. Bedrich Benes</a>
+    - title: Undergraduate Exchange, University of California, Berkeley
+      year: Summer 2017
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - <a href='https://www2.eecs.berkeley.edu/Faculty/Homepages/barsky.html'>Prof. Brian A. Barsky's Lab</a> at EECS, UC Berkeley
+        - "Research topic: vision correcting display"
+        # - <a href='https://www2.eecs.berkeley.edu/Faculty/Homepages/barsky.html'>Advised by Prof. Brian A. Barsky</a>
+    - title: Bachelor of Natural Science in Applied Physics, University of Science and Technology of China (USTC)
+      year: 2014  -  2018
       description:
+        - Advised by <a href='http://staff.ustc.edu.cn/~lgliu/'>Prof. Ligang Liu</a>
+        - <b>National Scholarship (3/355)</b>
+        - "GPA: 3.82/4.30, ranking: <b>2/52</b>."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2016
+#       items:
+#         - National Scholarship (3/355)
+#     - year: 2015
+#       items:
+#         - Kwang-Hua Scholarship (9/355)
+#         - The First Prize of Chinese Mathematics Competitions
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Teaching Experience
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: "Teaching assistant for ELEC4547: <a href='https://hku.welight.fun/projects/2_project/'>Emerging Tech in VR/AR</a>"
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - FALL 2024, FALL 2023
+    - title: "Teaching assistant for Data Structures and Algorithms, Weibing Gu, USTC <a href='https://icourse.club/course/2949/'>(rating: 9.6/10.0)</a>"
       items:
-        - Description 1.
-        - Description 2.
+        - SPRING 2018
 
-- title: Other Interests
-  type: list
+- title: Academic Services
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Reviewer
+      items:
+        - SIGGRAPH Asia, IEEE VR, ISMAR
+
+
+# - title: Teaching Experience
+#   type: time_table
+#   contents:
+#     - year: SPRING 2018
+#       items:
+#         - "Teaching assistant for Data Structures and Algorithms, Weibing Gu <a href='https://icourse.club/course/2949/'>(rating: 9.6/10.0)</a>"
+#     - year: Fall 2023
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "full name": "Wenbin Zhou",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "zhouwb@connect.hku.hk",
+    "office": "Haking Wong Building 301, The University of Hong Kong, HONG KONG",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "The University of Hong Kong, Pokfulam",
+      "postalCode": "",
+      "city": "Hong Kong",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
