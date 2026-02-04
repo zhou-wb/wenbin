@@ -45,7 +45,15 @@ layout: default
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {%- comment -%}
+        Render full news list on the homepage and paginate client-side (Prev/Next).
+        When `limit=true`, Liquid would only render the first N items, leaving nothing to paginate.
+      {%- endcomment -%}
+      {% if page.url == '/' or page.permalink == '/' %}
+        {% include news.liquid %}
+      {% else %}
+        {% include news.liquid limit=true %}
+      {% endif %}
     {% endif %}
 
     <!-- Latest posts -->
