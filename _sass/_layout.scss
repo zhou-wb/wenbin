@@ -38,6 +38,25 @@ body.sticky-bottom-footer {
   }
 }
 
+  // -----------------------------------------------------------------------------
+  // News pagination (in-place prev/next)
+  // -----------------------------------------------------------------------------
+
+  .news {
+    .news-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 0.25rem;
+
+      .news-page-status {
+        font-size: 0.9rem;
+        white-space: nowrap;
+      }
+    }
+  }
+
 // TODO: redefine content layout.
 
 /******************************************************************************

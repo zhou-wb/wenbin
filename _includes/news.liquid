@@ -1,4 +1,13 @@
-<div class="news">
+<div
+  class="news js-news-pager"
+  data-news-page-size="{{ site.announcements.limit | default: 5 }}"
+  data-news-total="{{ site.news | size }}"
+  {% if include.limit %}
+    data-news-has-liquid-limit="true"
+  {% else %}
+    data-news-has-liquid-limit="false"
+  {% endif %}
+>
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
@@ -15,7 +24,7 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
+          <tr class="news-item" data-news-index="{{ forloop.index0 }}">
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
@@ -27,6 +36,16 @@
           </tr>
         {% endfor %}
       </table>
+    </div>
+
+    <div class="news-pagination js-news-pagination" hidden>
+      <button type="button" class="btn btn-sm btn-outline-secondary js-news-prev" aria-label="Previous news page">
+        ← Prev
+      </button>
+      <span class="news-page-status js-news-status" aria-live="polite"></span>
+      <button type="button" class="btn btn-sm btn-outline-secondary js-news-next" aria-label="Next news page">
+        Next →
+      </button>
     </div>
   {% else %}
     <p>No news so far...</p>
