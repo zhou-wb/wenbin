@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: curriculum vitae
+title: CV
 nav: true
 nav_order: 5
 cv_pdf: CV_ZHOU Wenbin_202512.pdf

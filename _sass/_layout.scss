@@ -54,6 +54,23 @@ body.sticky-bottom-footer {
         font-size: 0.9rem;
         white-space: nowrap;
       }
+
+      .btn-news-nav {
+        color: var(--global-theme-color);
+        border: 1px solid var(--global-theme-color);
+        background-color: transparent;
+
+        &:hover:not(:disabled) {
+          color: var(--global-bg-color);
+          background-color: var(--global-theme-color);
+          border-color: var(--global-theme-color);
+        }
+
+        &:disabled {
+          color: var(--global-text-color-light);
+          border-color: var(--global-text-color-light);
+        }
+      }
     }
   }
 
