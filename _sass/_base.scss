@@ -768,6 +768,29 @@ footer.sticky-bottom {
         }
       }
 
+      .award-note {
+        margin-top: 0.2rem;
+        margin-bottom: 0.65rem;
+        color: #d60000 !important;
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        line-height: 1.35;
+
+        p {
+          color: #d60000 !important;
+          font-size: 1rem !important;
+          font-weight: 400 !important;
+          margin: 0;
+        }
+
+        img.emoji {
+          height: 1.15em;
+          width: 1.15em;
+          margin: 0 0.35rem 0.15rem 0;
+          vertical-align: middle;
+        }
+      }
+
       .badges {
         padding-bottom: 0.5rem;
         span {
